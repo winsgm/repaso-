@@ -1,7 +1,15 @@
-//definir problema: saber si hay una edad que sea menor de 18 años y saber cual es la menor y mayor edad de las 3
-//datos de entrada:ingresar 3 edades 
-//informacion de salida:si hay edades que sean menor de 18 años 
-//variables:edad1, edad2, edad3, mayor, menor
+//ANALISIS:
+//definir problema: deteeminar el maoyr y menor de 3 edades dadas por el usuario 
+//datos de entrada: edad1, edad2, edad3, mayor, menor Como Entero
+//informacion de salida: mayor, edad,_1, menor, edad_1 como enteros  
+//variables:edad1, edad2, edad3, mayor, menor como enteros 
+//DISEÃ‘O:
+//dividir el problema en partes simples 
+//pedir al usurario ingresar 3 edades
+//validar si todas las edades son mayores de 18 aÃ±os 
+//encontrar el mayor 
+//encontrar el menor 
+//mostrar resultados 
 
 Algoritmo MayorMenorEdad
 
@@ -15,9 +23,9 @@ Algoritmo MayorMenorEdad
     Leer edad3
 
     Si edad1 >= 18 y edad2 >= 18 y edad3 >= 18 Entonces
-        Escribir "Todas las edades son mayores de 18 años." 
+        Escribir "Todas las edades son mayores de 18 aÃ±os." 
     Sino
-        Escribir "Al menos una de las edades no es mayor de 18 años." 
+        Escribir "Al menos una de las edades no es mayor de 18 aÃ±os." 
     FinSi
 
     Si edad1 >= edad2 y edad1 >= edad3 Entonces
